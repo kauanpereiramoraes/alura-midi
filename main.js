@@ -1,2 +1,5 @@
-<audio src="sounds/keyq.wav" id="som_tecla_pom"></audio>
+function tocaSomPom () {
 document.querySelector('#som_tecla_pom').play();
+}
+
+document.querySelector('.tecla_pom').onlick = tocaSomPom;
